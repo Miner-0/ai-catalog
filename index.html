@@ -59,7 +59,7 @@
         }
 
         .content {
-        width: 100%;
+            width: 100%;
         }
 
         .catalog {
@@ -113,6 +113,7 @@
 
         .ad-left { left: calc(50% - 600px - 190px); }
         .ad-right { right: calc(50% - 600px - 190px); }
+
         .card {
             background-color: #1e1e1e;
             border-radius: 15px;
@@ -244,8 +245,10 @@
     </div>
 
     <div class="main-container">
+        
         <div class="content">
             <div class="catalog">
+                
                 <div class="card text">
                     <span class="card-category">Текст / Код</span>
                     <h3>ChatGPT (GPT-4o mini)</h3>
@@ -399,7 +402,8 @@
                     <p>Абсолютный лидер в сфере генерации речи. Умеет озвучивать текст любыми голосами, идеально передает человеческие эмоции (смех, шепот, вздохи) и способен клонировать ваш собственный голос по короткой записи.</p>
                     <a href="elevenlabs.html" class="card-btn">Перейти / Открыть ИИ</a>
                 </div>
-                </div>
+
+            </div>
         </div>
 
         <aside class="sidebar">
@@ -408,8 +412,17 @@
             <div class="sidebar-ad-block">РЕКЛАМНЫЙ БАННЕР №2</div>
         </aside>
 
+    </div>
+
     <script>
         function filterCards(category) {
+            const buttons = document.querySelectorAll('.filter-btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            
+            if (event) {
+                event.currentTarget.classList.add('active');
+            }
+
             const cards = document.querySelectorAll('.card');
             cards.forEach(card => {
                 if (category === 'all') {
