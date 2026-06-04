@@ -47,39 +47,30 @@
             font-weight: bold;
             margin-top: 20px;
         }
-        /* Рекламные блоки на странице статьи */
-        .article-ad {
-            background-color: #2a2a2a;
-            border: 2px dashed #6a11cb;
-            color: #888;
+        
+        /* Контейнер для центрирования реальных баннеров */
+        .ad-container {
             text-align: center;
-            padding: 20px;
             margin: 20px 0;
-            border-radius: 10px;
-            font-weight: bold;
+            min-height: 60px; /* Чтобы страница не прыгала при загрузке рекламы */
         }
 
         /* Адаптивность для страниц статей */
         @media (max-width: 600px) {
             .container {
-                padding: 10px; /* Меньше отступы по бокам экрана */
+                padding: 10px;
             }
             
             .article-content {
-                padding: 15px; /* Больше места для текста внутри статьи */
+                padding: 15px;
             }
 
             h1 {
-                font-size: 1.5rem; /* Уменьшаем главный заголовок, чтобы не переносился некрасиво */
-            }
-
-            .article-ad {
-                font-size: 0.8rem; /* Делаем текст в заглушках рекламы компактнее */
-                padding: 15px 5px;
+                font-size: 1.5rem;
             }
             
             .btn-official {
-                display: block; /* Кнопка перехода на ИИ становится на всю ширину экрана */
+                display: block;
                 text-align: center;
                 padding: 15px 10px;
             }
@@ -89,11 +80,20 @@
 <body>
 
     <div class="container">
-        <!-- Кнопка возврата на главную для повторного просмотра рекламы -->
         <a href="index.html" class="back-btn">← Вернуться в каталог нейросетей</a>
 
-        <!-- РЕКЛАМА 1: Верхняя реклама перед статьей -->
-        <div class="article-ad">РЕКЛАМНЫЙ БАННЕР №1 (Верхний под заголовок)</div>
+        <div class="ad-container">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : 'c499a0cbf4ed97cbac92cd63f2ded243',
+                    'format' : 'iframe',
+                    'height' : 60,
+                    'width' : 468,
+                    'params' : {}
+                };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/c499a0cbf4ed97cbac92cd63f2ded243/invoke.js"></script>
+        </div>
 
         <div class="article-content">
             <h1>ChatGPT: Как пользоваться бесплатно в 2026 году</h1>
@@ -110,8 +110,18 @@
             <h3>Как использовать её бесплатно без ограничений?</h3>
             <p>В 2026 году базовая модель GPT-4o mini доступна на официальном сайте совершенно бесплатно. Вам даже не обязательна регистрация для простых запросов, а лимиты на сообщения практически отсутствуют.</p>
             
-            <!-- РЕКЛАМА 2: Реклама прямо перед кнопкой перехода на сам ИИ -->
-            <div class="article-ad">РЕКЛАМНЫЙ БАННЕР №2 (Внутри статьи перед ссылкой)</div>
+            <div class="ad-container">
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : 'f1703aac7effc964ea66b7803875b393',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/f1703aac7effc964ea66b7803875b393/invoke.js"></script>
+            </div>
 
             <a href="https://chatgpt.com" target="_blank" class="btn-official">Перейти на официальный сайт ChatGPT →</a>
         </div>
