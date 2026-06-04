@@ -1,134 +1,420 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <!-- Главная страница твоего каталога -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
     <url>
         <loc>https://miner-0.github.io/ai-catalog/</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/"/>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/"/>
         <priority>1.0</priority>
     </url>
 
-    <!-- Внутренние страницы нейросетей -->
     <url>
         <loc>https://miner-0.github.io/ai-catalog/chatgpt.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/chatgpt.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/chatgpt.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/chatgpt.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/chatgpt.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/chatgpt.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/leonardo.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/leonardo.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/leonardo.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/leonardo.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/leonardo.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/leonardo.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/perplexity.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/perplexity.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/perplexity.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/perplexity.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/perplexity.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/perplexity.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/clipdrop.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/clipdrop.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/clipdrop.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/clipdrop.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/clipdrop.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/clipdrop.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/recraft.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/recraft.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/recraft.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/recraft.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/recraft.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/recraft.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/capcut.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/capcut.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/capcut.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/capcut.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/capcut.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/capcut.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/suno.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/suno.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/suno.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/suno.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/suno.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/suno.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/copilot.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/copilot.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/copilot.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/copilot.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/copilot.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/copilot.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/kling.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/kling.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/kling.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/kling.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/kling.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/kling.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/gamma.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/gamma.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/gamma.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/gamma.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/gamma.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/gamma.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/gemini.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/gemini.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/gemini.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/gemini.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/gemini.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/gemini.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/ideogram.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/ideogram.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/ideogram.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/ideogram.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/ideogram.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/ideogram.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/luma.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/luma.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/luma.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/luma.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/luma.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/luma.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/gigachat.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/gigachat.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/gigachat.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/gigachat.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/gigachat.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/gigachat.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/seaart.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/seaart.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/seaart.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/seaart.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/seaart.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/seaart.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/pika.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/pika.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/pika.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/pika.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/pika.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/pika.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/claude.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/claude.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/claude.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/claude.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/claude.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/claude.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/playground.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/playground.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/playground.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/playground.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/playground.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/playground.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/runway.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/runway.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/runway.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/runway.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/runway.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/runway.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/v0.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/v0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/v0.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/v0.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/v0.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/v0.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/firefly.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/firefly.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/firefly.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/firefly.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/firefly.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/firefly.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/elevenlabs.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/elevenlabs.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/elevenlabs.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/elevenlabs.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/elevenlabs.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/elevenlabs.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/deepseek.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/deepseek.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/deepseek.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/deepseek.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/deepseek.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/deepseek.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/flux.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/flux.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/flux.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/flux.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/flux.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/flux.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/udio.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/udio.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/udio.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/udio.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/udio.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/udio.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/character.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/character.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/character.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/character.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/character.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/character.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/krea.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/krea.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/krea.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/krea.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/krea.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/krea.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/viggle.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/viggle.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/viggle.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/viggle.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/viggle.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/viggle.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/heygen.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/heygen.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/heygen.html"/>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/heygen.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/heygen.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/heygen.html"/>
+        <priority>0.8</priority>
+    </url>
+
     <url>
         <loc>https://miner-0.github.io/ai-catalog/consensus.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/consensus.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/consensus.html"/>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://miner-0.github.io/ai-catalog/meshy.html</loc>
+        <loc>https://miner-0.github.io/ai-catalog/en/consensus.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/consensus.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/consensus.html"/>
         <priority>0.8</priority>
     </url>
+
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/meshy.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/meshy.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/meshy.html"/>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://miner-0.github.io/ai-catalog/en/meshy.html</loc>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://miner-0.github.io/ai-catalog/meshy.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://miner-0.github.io/ai-catalog/en/meshy.html"/>
+        <priority>0.8</priority>
+    </url>
+
 </urlset>
