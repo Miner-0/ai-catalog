@@ -68,7 +68,6 @@
             gap: 20px;
         }
 
-        /* Адаптивный мобильный блок рекламы */
         .sidebar {
             display: none; 
         }
@@ -93,13 +92,12 @@
             border-radius: 12px;
             font-weight: bold;
             box-sizing: border-box;
-            min-height: 270px; /* Фиксирует высоту под мобильный баннер 300x250, чтобы контент не прыгал */
+            min-height: 270px; 
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
-        /* Боковые рекламные блоки для ПК */
         .ad-side {
             position: fixed;
             top: 240px;
@@ -119,7 +117,6 @@
             z-index: 1000;
         }
 
-        /* Центрирование боковых баннеров относительно контента */
         .ad-left { left: calc(50% - 600px - 190px); }
         .ad-right { right: calc(50% - 600px - 190px); }
 
@@ -179,10 +176,9 @@
             display: none !important;
         }
 
-        /* МЕДИА-ЗАПРОСЫ ДЛЯ АДАПТИВНОСТИ */
         @media (max-width: 1580px) {
             .ad-side {
-                display: none !important; /* Полностью убирает ПК-рекламу на экранах меньше 1580px */
+                display: none !important; 
             }
         }
 
@@ -219,8 +215,8 @@
             }
 
             .sidebar {
-                display: block !important; /* Включает рекламу для телефонов */
-                order: 1; /* Перемещает рекламу наверх перед контентом */
+                display: block !important;
+                order: 1; 
                 width: 100%;
                 margin-bottom: 10px;
             }
@@ -231,7 +227,7 @@
             }
 
             .catalog {
-                grid-template-columns: 1fr !important; /* Перестраивает карточки в 1 колонку */
+                grid-template-columns: 1fr !important;
                 gap: 15px;
             }
         }
