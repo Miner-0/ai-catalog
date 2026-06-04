@@ -68,6 +68,7 @@
             gap: 20px;
         }
 
+        /* Адаптивный мобильный блок рекламы */
         .sidebar {
             display: none; 
         }
@@ -79,6 +80,7 @@
             letter-spacing: 1px;
             margin-bottom: 15px;
             font-weight: bold;
+            text-align: center;
         }
 
         .sidebar-ad-block {
@@ -86,13 +88,18 @@
             border: 2px dashed #3b82f6;
             color: #888;
             text-align: center;
-            padding: 25px 10px;
-            margin-bottom: 10px;
+            padding: 15px 10px;
+            margin-bottom: 15px;
             border-radius: 12px;
             font-weight: bold;
             box-sizing: border-box;
+            min-height: 270px; /* Фиксирует высоту под мобильный баннер 300x250, чтобы контент не прыгал */
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
+        /* Боковые рекламные блоки для ПК */
         .ad-side {
             position: fixed;
             top: 240px;
@@ -109,8 +116,10 @@
             align-items: center;
             justify-content: center;
             font-size: 0.9em;
+            z-index: 1000;
         }
 
+        /* Центрирование боковых баннеров относительно контента */
         .ad-left { left: calc(50% - 600px - 190px); }
         .ad-right { right: calc(50% - 600px - 190px); }
 
@@ -170,9 +179,10 @@
             display: none !important;
         }
 
+        /* МЕДИА-ЗАПРОСЫ ДЛЯ АДАПТИВНОСТИ */
         @media (max-width: 1580px) {
             .ad-side {
-                display: none !important;
+                display: none !important; /* Полностью убирает ПК-рекламу на экранах меньше 1580px */
             }
         }
 
@@ -209,8 +219,8 @@
             }
 
             .sidebar {
-                display: block !important;
-                order: 1;
+                display: block !important; /* Включает рекламу для телефонов */
+                order: 1; /* Перемещает рекламу наверх перед контентом */
                 width: 100%;
                 margin-bottom: 10px;
             }
@@ -221,7 +231,7 @@
             }
 
             .catalog {
-                grid-template-columns: 1fr !important;
+                grid-template-columns: 1fr !important; /* Перестраивает карточки в 1 колонку */
                 gap: 15px;
             }
         }
@@ -229,9 +239,31 @@
 </head>
 <body>
 
-    <div class="ad-side ad-left">Боковая реклама<br>(160х600)</div>
-    <div class="ad-side ad-right">Боковая реклама<br>(160х600)</div>
+    <div class="ad-side ad-left">
+        <script type="text/javascript">
+            atOptions = {
+                'key' : 'СЮДА_ВСТАВЬТЕ_КЛЮЧ_ЛЕВОГО_БАННЕРА',
+                'format' : 'iframe',
+                'height' : 600,
+                'width' : 160,
+                'params' : {}
+            };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/СЮДА_ВСТАВЬТЕ_КЛЮЧ_ЛЕВОГО_БАННЕРА/invoke.js"></script>
+    </div>
 
+    <div class="ad-side ad-right">
+        <script type="text/javascript">
+            atOptions = {
+                'key' : 'СЮДА_ВСТАВЬТЕ_КЛЮЧ_ПРАВОГО_БАННЕРА',
+                'format' : 'iframe',
+                'height' : 600,
+                'width' : 160,
+                'params' : {}
+            };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/СЮДА_ВСТАВЬТЕ_КЛЮЧ_ПРАВОГО_БАННЕРА/invoke.js"></script>
+    </div>
     <header>
         <h1>ТОП-50 Бесплатных Нейросетей</h1>
         <p>Каталог лучших ИИ-сервисов для текста, фото и видео (Без подписок)</p>
@@ -246,6 +278,22 @@
 
     <div class="main-container">
         
+        <aside class="sidebar">
+            <div class="sidebar-title">Спонсоры и Реклама</div>
+            
+            <div class="sidebar-ad-block">
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : 'СЮДА_ВСТАВЬТЕ_КЛЮЧ_МОБИЛЬНОГО_БАННЕРА_1',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/СЮДА_ВСТАВЬТЕ_КЛЮЧ_МОБИЛЬНОГО_БАННЕРА_1/invoke.js"></script>
+            </div>
+        </aside>
         <div class="content">
             <div class="catalog">
                 
@@ -376,7 +424,7 @@
                 </div>
 
                 <div class="card video">
-                    <span class="card-category">Видео / Спецэффекты</span>
+                    <span class="card-category">Video / Спецэффекты</span>
                     <h3>Runway AI</h3>
                     <p>Профессиональный ИИ-инструмент для видеографов и режиссеров. Генерирует кинематографичные ролики нового поколения, умеет плавно замедлять видео, удалять объекты из кадра и делать сложный трекинг.</p>
                     <a href="runway.html" class="card-btn">Перейти / Открыть ИИ</a>
@@ -406,12 +454,6 @@
             </div>
         </div>
 
-        <aside class="sidebar">
-            <div class="sidebar-title">Спонсоры и Реклама</div>
-            <div class="sidebar-ad-block">РЕКЛАМНЫЙ БАННЕР №1</div>
-            <div class="sidebar-ad-block">РЕКЛАМНЫЙ БАННЕР №2</div>
-        </aside>
-
     </div>
 
     <script>
@@ -419,8 +461,8 @@
             const buttons = document.querySelectorAll('.filter-btn');
             buttons.forEach(btn => btn.classList.remove('active'));
             
-            if (event) {
-                event.currentTarget.classList.add('active');
+            if (window.event && window.event.currentTarget) {
+                window.event.currentTarget.classList.add('active');
             }
 
             const cards = document.querySelectorAll('.card');
